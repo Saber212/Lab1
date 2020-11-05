@@ -2,9 +2,9 @@
 using namespace std; 
 int main(){
     string q1 = "What is your name?\n";
-    string answer; 
+    string answer;   
     int number; 
-
+    float height; 
     cout << q1; 
     cin >> answer;
     cout << "Okay "<<answer<<". How old are you?\n";
@@ -14,5 +14,5 @@ int main(){
     cout << "Are you married\n"; 
     cin >> answer; 
     cout << "How long are you?\n"; 
-    cin>> number;
+    cin>> height;
 }
