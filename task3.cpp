@@ -13,7 +13,6 @@ int main(){
         n = n + 1; 
         cout << "Hello World\n";
     } while (n<10); // at the end we writie the condition in the while loop 
-    
     //using a forloop
     int y  = 0; // defining a integer 0
     for(y; y<10; y = y+1){ // using a forloop with condition that y should be less than 10
