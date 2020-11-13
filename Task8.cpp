@@ -2,7 +2,7 @@
 using namespace std; 
 
 int main(){
-    int num; 
+    int num; //Def integer
     cout<<"Enter a number: \n"; 
     cin>>num; 
     for(int i = 1; i<=num; i++){
