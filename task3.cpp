@@ -6,6 +6,7 @@ int main(){
         x = x + 1; // x is incrementing in order to follow the condition above
         cout << "Hello, World!\n"; //printing Hello World 10 times
     }
+    
     int n = 0; 
     // We can also use another alternative of using a while loop
     do // using the command do where the code is execuded
