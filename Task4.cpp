@@ -13,6 +13,6 @@ int main(){
     cin >> answer;
     cout << "Are you married\n"; 
     cin >> answer; 
-    cout << "How long are you?\n"; 
+    cout << "How long are you? \n"; 
     cin>> height;
 }
