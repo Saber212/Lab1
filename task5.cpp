@@ -5,7 +5,6 @@ using namespace std;
 int main(){
     char Name[20], Gender[20], Adress[20];
     int age, height; 
-
     printf("What is your name?\n");
     for(int i = 0; i<=20; i++){
         scanf("%c", &Name[i]);
