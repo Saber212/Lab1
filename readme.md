@@ -1,2 +1,2 @@
 # My portfolio
-This is just a test
+This are solutions to the exercises in Lab1
