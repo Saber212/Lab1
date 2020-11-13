@@ -1,38 +1,26 @@
 # include <iostream>
+#include <stdio.h>
 using namespace std; 
 
 int main(){
-    int x, count, i,n,u,y; //Defining integers
-    cout<<" Enter a number: "; //asking for a number
-    cin>>n; //entering a number from the terminal
-     // Condition for positive numbers
-    if(n>=0){ 
-        int arr[n];
-        //Creating an array with n positions.
+    char Name[20], Gender[20], Adress[20];
+    int age, height; 
 
-        x = sizeof(arr)/sizeof(arr[0]); //Calculating the size of the array
-        count = x + 1; 
-        arr[0] = 0; //putting 0 in the first position in the array.
-    
-        for ( i = 0; i < count; i++)
-        {
-            arr[i+1] = i+1; // putting values inside the array starting from arr[1]=1...
-            //arr[i+1]=arr[i]
-        }
-
-        for(u = 0; u<=x-1; u++)
-        {
-            cout<<" "<<arr[x-u]; //returning the array in reverse order
-        }
-    
-        for(y = 0; y<x+1; y++)
-        {
-            cout<<" "<<arr[y]; //returning the array in the r
-        }
+    printf("What is your name?\n");
+    for(int i = 0; i<=20; i++){
+        scanf("%c", &Name[i]);
+        if(Name[i]=='\n'){break;}
     }
-    else
-    {
-        cout<<"Enter a positive number!";
-    }  
-    cout<<endl;
+    printf("What is your adress?\n"); 
+    for(int j = 0; j<=20; j++){
+        scanf("%c", &Adress[j]);
+        if(Adress[j]=='\n'){break;}
+    }
+    printf("How old are you?\n"); 
+    scanf("%d", &age); 
+    printf("What is your gender?\n");
+    scanf("%s", Gender);
+    printf("What is your height?\n"); 
+    scanf("%d",&height);
+    printf("Name: %s\nAge: %d\nGender: %s\nAdress: %s\nheight: %dcm\n", Name, age, Gender, Adress,height);
 }
